@@ -1,3 +1,19 @@
+<div align="center">
+
+# Origin Data Lab · Technical Field Note #07
+
+**Evidence-led real-world data production · Egocentric / Physical AI**
+
+[![Field Note](https://img.shields.io/badge/Field_Note-%2307-0B1220?style=for-the-badge)](https://origindatalab.io/technical-field-notes/egocentric-hand-visibility-evaluation.html) ![Status](https://img.shields.io/badge/Status-AI--only_Preliminary-F59E0B?style=for-the-badge)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Open-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/origin-data-lab/egocentric-hand-visibility-evaluation) [![Hugging Face](https://img.shields.io/badge/Hugging_Face-Open-FFD21E?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/datasets/origin-data-lab/egocentric-hand-visibility-evaluation) [![Kaggle](https://img.shields.io/badge/Kaggle-Open-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/origindatalab/egocentric-hand-visibility-evaluation) [![Technical Note](https://img.shields.io/badge/Technical_Note-Open-0B1220?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://origindatalab.io/technical-field-notes/egocentric-hand-visibility-evaluation.html)
+
+[English technical note](https://origindatalab.io/technical-field-notes/egocentric-hand-visibility-evaluation.html) · [한국어 기술노트](https://origindatalab.io/ko/technical-field-notes/egocentric-hand-visibility-evaluation.html)
+
+</div>
+
+---
+
 # Egocentric Hand Visibility: Detector Rate vs Reviewed Visibility
 
 Code and per-frame results for **Origin Data Lab Technical Field Note #07** — *Are Both Hands in View? Measuring Hand Visibility in Egocentric Capture*.
@@ -55,3 +71,36 @@ Source videos, raw sensor files, camera calibration and any customer material. T
   url          = {https://origindatalab.io/technical-field-notes/egocentric-hand-visibility-evaluation.html}
 }
 ```
+
+## Visual evidence
+
+These plots are supporting figures from the released evaluation. They do not constitute human-verified ground truth.
+
+### Both hands rate by method
+
+![Both hands rate by method](figures/both-hands-rate-by-method.png)
+
+### Detector recall
+
+![Detector recall](figures/detector-recall.png)
+
+### Single pass vs consensus examples
+
+![Single pass vs consensus examples](figures/single-pass-vs-consensus-examples.png)
+
+### Both hands by keystep
+
+![Both hands by keystep](figures/both-hands-by-keystep.png)
+
+### Detection vs motion
+
+![Detection vs motion](figures/detection-vs-motion.png)
+
+### Hand position heatmap
+
+![Hand position heatmap](figures/hand-position-heatmap.png)
+
+
+---
+
+[![GitHub](https://img.shields.io/badge/GitHub-Open-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/origin-data-lab/egocentric-hand-visibility-evaluation) [![Hugging Face](https://img.shields.io/badge/Hugging_Face-Open-FFD21E?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/datasets/origin-data-lab/egocentric-hand-visibility-evaluation) [![Kaggle](https://img.shields.io/badge/Kaggle-Open-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/origindatalab/egocentric-hand-visibility-evaluation) [![Technical Note](https://img.shields.io/badge/Technical_Note-Open-0B1220?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://origindatalab.io/technical-field-notes/egocentric-hand-visibility-evaluation.html)

@@ -1,0 +1,6 @@
+mediapipe==0.10.14  # requires Python 3.11 or earlier for the bundled legacy Hands models
+opencv-python-headless
+numpy
+pandas
+statsmodels
+matplotlib

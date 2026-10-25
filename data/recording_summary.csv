@@ -1,0 +1,4 @@
+recording,frames,single_both,pass3_both,consensus_both,passes_disagree,review_n,review_both_visible,review_both_fully_inside,review_frames_with_border_cut,recall_single,recall_consensus,reviewed_visible_hands,reviewed_absent_hands
+stereo_rig_left,3600,0.5808,0.8269,0.9531,0.6142,40,40,40,0,0.8,0.9875,80,0
+phone_knife_prep,1979,0.4179,0.6665,0.8428,0.4406,40,38,34,5,0.7308,0.9487,78,2
+phone_seasoning,1978,0.7412,0.8493,0.8989,0.3129,40,39,35,4,0.8101,0.9241,79,1
